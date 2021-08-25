@@ -1,0 +1,44 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #000;
+    opacity: 0.9;
+  }
+  
+  .navbar .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .main-header {
+    position: relative;
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    
+  }
+  
+  .background-overlay {
+    background: rgba(9, 170, 44, 0.582);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-control, .btn{
+    border-radius: 0;
+  }
+  
+  .team, footer {
+    background: #109e4b;
+  }
+
+  .btn.btn-link{
+      background: #109e4b;
+      width: 100%;
+  }
+  .btn.btn-link h3{
+      color: #fff;
+  }
